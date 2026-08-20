@@ -1,5 +1,6 @@
 import "./App.css";
-import PractOfuseState from "./hooks/PractOfuseState";
+import PractOfuseEffect from "./hooks/PractOfuseEffect";
+//import PractOfuseState from "./hooks/PractOfuseState";
 
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
 
   return (
     <div className="App">
-      <PractOfuseState/>
+      {/*<PractOfuseState/>*/}
+      <PractOfuseEffect/>
     </div>
   );
 }
